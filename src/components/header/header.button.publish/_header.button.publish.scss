@@ -1,0 +1,26 @@
+.publish-button {
+  background-color: $bluetwitter;
+  margin: 16px 0;
+  // width: 90%;
+  transition-duration: 0.2s;
+  border-radius: $border-radius-button;
+  cursor: pointer;
+  &:hover {
+    background-color: $bluetwitterhover;
+  }
+  a {
+    padding: 0 32px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+  }
+  .publish-button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span {
+    font-family: $fontHelveticaMedium;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+}

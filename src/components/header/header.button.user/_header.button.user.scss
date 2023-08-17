@@ -1,0 +1,54 @@
+.button-user {
+  margin: 12px 0;
+  border-radius: $border-radius-button;
+  transition-duration: 0.2s;
+  &:hover {
+    background-color: $greyhover;
+  }
+  a {
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    padding: 12px;
+  }
+  .button-user__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 40px;
+      width: 40px;
+      border-radius: 150px;
+    }
+  }
+  .button-user__text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: $fontHelveticaMedium;
+    font-size: 15px;
+    margin: 0 12px;
+    p {
+      font-weight: 900;
+      margin: 0;
+      height: 100%;
+    }
+    span {
+      font-weight: 200;
+    }
+  }
+  .button-user__icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 53px;
+    .icon {
+      width: 1.5rem;
+      filter: invert(93%) sepia(7%) saturate(12%) hue-rotate(180deg)
+        brightness(102%) contrast(85%);
+      height: 18px;
+      width: 18px;
+    }
+  }
+}
