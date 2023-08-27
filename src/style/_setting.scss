@@ -1,0 +1,30 @@
+$greyhover: rgba(231, 233, 234, 0.1);
+$greyborder: #2f3336;
+$bluetwitter: #399bf0;
+$bluetwitterhover: rgb(26, 140, 216);
+$border-radius-button: 20px;
+$white: #e7e9ea;
+$black: #000000;
+
+@font-face {
+  font-family: 'fontHelveticaMedium';
+  src: url(./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ Medium\ Extended/);
+}
+$fontHelveticaMedium: 'fontHelveticaMedium', sans-serif;
+
+// Width
+$headerWith: 275px;
+
+// Border Radius
+$border-radius-button: 9999px;
+
+body {
+  min-height: 100vh;
+  background-color: $black;
+}
+#root {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
