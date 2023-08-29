@@ -13,7 +13,7 @@ function HeaderButtonUser({
     <div className="button-user">
       <Link to={link}>
         <div className="button-user__image">
-          <img src={userPicture} alt={alt} />
+          <img src={userPicture} alt={alt} className="user--picture__icon" />
         </div>
         <div className="button-user__text">
           <p>{userName}</p>

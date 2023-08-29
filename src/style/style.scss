@@ -5,3 +5,17 @@
 @import '../components/header/header.button.publish/header.button.publish';
 @import '../components/header/header.button.user/header.button.user';
 @import '../components/header/header.buttons/header.button';
+
+// Main //
+
+// Home
+@import '../components/home/home';
+// Flux
+@import '../components/home/flux/flux';
+@import '../components/home/flux/flux.welcome/fluxWelcome';
+@import '../components/home/flux/flux.post/fluxPost';
+// Suggestions
+@import '../components/home/suggestions/suggestions';
+@import '../components/home/suggestions/suggestions.seachbar/searchBar';
+@import '../components/home/suggestions/suggestions.seachbar/suggestions.seachbar.history/searchHistory';
+@import '../components/home/suggestions/suggestion.subscription/subscription';

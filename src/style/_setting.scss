@@ -1,10 +1,19 @@
 $greyhover: rgba(231, 233, 234, 0.1);
 $greyborder: #2f3336;
+$greytextcolor: #71767b;
+$greybackground: #202327;
+
 $bluetwitter: #399bf0;
 $bluetwitterhover: rgb(26, 140, 216);
+$blueborder: #1d9bf0;
 $border-radius-button: 20px;
 $white: #e7e9ea;
+$whitepure: #ffff;
 $black: #000000;
+$welcomebackground: rgba(0, 0, 0, 0.65);
+
+$boxshadow: rgba(255, 255, 255, 0.2) 0px 0px 15px,
+  rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
 
 @font-face {
   font-family: 'fontHelveticaMedium';
@@ -24,7 +33,34 @@ body {
 }
 #root {
   display: flex;
-  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+h2 {
+  font-family: $fontHelveticaMedium;
+}
+
+p {
+  font-family: $fontHelveticaMedium;
+}
+
+input {
+  font-family: $fontHelveticaMedium;
+}
+
+span {
+  font-family: $fontHelveticaMedium;
+}
+.user--picture__icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 150px;
+}
+
+.icon-class {
+  width: 1.42rem;
+  filter: invert(93%) sepia(7%) saturate(12%) hue-rotate(180deg)
+    brightness(102%) contrast(85%);
+  cursor: pointer;
 }

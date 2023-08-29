@@ -7,7 +7,7 @@ function HeaderButtons({ icon, alt, text, link }) {
       <Link to={link}>
         <div className="text-icon">
           <div className="text-icon__container">
-            <img src={icon} alt={alt} />
+            <img src={icon} alt={alt} className="icon-class" />
             <span>{text}</span>
           </div>
         </div>

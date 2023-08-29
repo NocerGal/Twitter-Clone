@@ -16,11 +16,7 @@ a {
       flex-direction: row;
       align-items: center;
       padding: 12px;
-      img {
-        width: 1.42rem;
-        filter: invert(93%) sepia(7%) saturate(12%) hue-rotate(180deg)
-          brightness(102%) contrast(85%);
-      }
+
       span {
         font-family: $fontHelveticaMedium;
         margin-left: 20px;
